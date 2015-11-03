@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  root 'inquiry#controller'
+  get 'inquiry' => 'inquiry#index'            # 入力画面
+  post 'inquiry/confirm' => 'inquiry#confirm' # 確認画面
+  post 'inquiry/thanks' => 'inquiry#thanks'   # 送信完了画面
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
