@@ -15,46 +15,51 @@
     <link rel="stylesheet" href="tmp_portfolio.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="form-inline">
-              <a class="navbar-brand" href="#">Portfolio | Masami Kurihara</a>
-              <a href="index.html"><img src="images/japan.png" alt="japonês"></a>
-              <a href="#"><img src="images/brazil.png" alt="português"></a>
+    <div id="wrap">
+      <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="form-inline">
+                <a class="navbar-brand" href="#">Portfolio | Masami Kurihara</a>
+                <a href="index.html"><img src="images/japan.png" alt="japonês"></a>
+                <a href="#"><img src="images/brazil.png" alt="português"></a>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="site-menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="about_pt-BR.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Portfolio
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="application1_pt-BR.html">Obra 1</a></li>
+                    <li><a href="application2_pt-BR.html">Obra 2</a></li>
+                    <li><a href="application3_pt-BR.html">Obra 3</a></li>
+                    <li><a href="application4_pt-BR.html">Obra 4</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact_pt-BR.html">Contact</a></li>
+              </ul>
             </div>
           </div>
-          <div class="collapse navbar-collapse" id="site-menu">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="about_pt-BR.html">About</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  Portfolio
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="application1_pt-BR.html">Obra 1</a></li>
-                  <li><a href="application2_pt-BR.html">Obra 2</a></li>
-                  <li><a href="application3_pt-BR.html">Obra 3</a></li>
-                  <li><a href="application4_pt-BR.html">Obra 4</a></li>
-                </ul>
-              </li>
-              <li><a href="contact_pt-BR.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <img src="images/portfolio.jpg" alt="" />
-    <h1>A página para colocar minhas obras:)</h1>
+        </nav>
+      </header>
+      <container>
+        <img src="images/portfolio.jpg" alt="" />
+        <h1>A página para colocar minhas obras:)</h1>
+      </container>
+       <div id="push"></div>
+    </div>
     <footer>
       <div class="copyright">© 2015 Masami Kurihara.</div>
     </footer>

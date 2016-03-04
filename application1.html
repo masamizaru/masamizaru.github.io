@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="作品その1">
-    <title>Portfolio | Masami Kurihara</title>
+    <title>Portfolio | Masami Kurihara | Application1 Stick Figure</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -15,54 +15,59 @@
     <link rel="stylesheet" href="tmp_portfolio.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="form-inline">
-              <a class="navbar-brand" href="index.html">Portfolio | Masami Kurihara</a>
-              <a href="#"><img src="images/japan.png" alt="日本語"></a>
-              <a href="application1_pt-BR.html"><img src="images/brazil.png" alt="ポルトガル語"></a>
+    <div id="wrap">
+      <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="form-inline">
+                <a class="navbar-brand" href="index.html">Portfolio | Masami Kurihara |Application1 Stick Figure</a>
+                <a href="#"><img src="images/japan.png" alt="日本語"></a>
+                <a href="application1_pt-BR.html"><img src="images/brazil.png" alt="ポルトガル語"></a>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="site-menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Portfolio
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="active"><a href="#">作品 その1</a></li>
+                    <li><a href="application2.html">作品 その2</a></li>
+                    <li><a href="application3.html">作品 その3</a></li>
+                    <li><a href="application4.html">作品 その4</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
             </div>
           </div>
-          <div class="collapse navbar-collapse" id="site-menu">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  Portfolio
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li class="active"><a href="#">作品 その1</a></li>
-                  <li><a href="application2.html">作品 その2</a></li>
-                  <li><a href="application3.html">作品 その3</a></li>
-                  <li><a href="application4.html">作品 その4</a></li>
-                </ul>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
+        </nav>
+      </header>
+      <container>
+        <div class="form-inline">
+          <img src="images/portfolio-1.jpg" height="100" width="100" alt=""/>
+          <h1>作品その1 てくてく歩く棒人間</h1>
         </div>
-      </nav>
-    </header>
-    <div class="form-inline">
-      <img src="images/portfolio-1.jpg" height="100" width="100" alt=""/>
-      <h1>作品その1 てくてく歩く棒人間</h1>
-    </div>
-    <img src="stick_figure/images/application1.gif">
-    <p>
-      ホームページ上を棒人間がただただてくてく歩いたり、ひょこっと顔をのぞかせたり。</br>
-      第一号作品＼(^o^)／‼‼</br>
-      <a href="stick_figure/about.html">リンクページ</a>
-    </p>
+        <img src="stick_figure/images/application1.gif">
+        <p>
+          ホームページ上を棒人間がただただてくてく歩いたり、ひょこっと顔をのぞかせたり。</br>
+          第一号作品＼(^o^)／‼‼</br>
+          <a href="stick_figure/about.html" target="_blank">リンクページ</a>
+        </p>
+      </container>
+      <div id="push"></div>
+    </div>  
     <footer>
       <div class="copyright">© 2015 Masami Kurihara.</div>
     </footer>
